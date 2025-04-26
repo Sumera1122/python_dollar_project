@@ -3,17 +3,16 @@ name = "project-dollar"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "sumera shadab",email = "sumeramushtaque993@gmail.com"}
+    {name = "sumera shadab", email = "sumeramushtaque993@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.8,<3.13"
 dependencies = [
     "streamlit (>=1.44.1,<2.0.0)"
 ]
 
 [tool.poetry]
 packages = [{include = "project_dollar", from = "src"}]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
